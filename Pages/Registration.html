@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Registration Page</title>
+</head>
+<body>
+    <form action="Thankyou.html">
+        First name: <input type="text" name="firstname">
+        <br><br>
+        Last Name: <input type="text" name="lastname">
+        <br><br>
+        Password: <input type="password" name="password">
+        <br><br>    
+        Repeat password: <input type="password" name="repeatpassword">
+        <br><br>
+        User Picture: <input type="file" name="picture">
+        <br><br>
+        Gender: 
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br><br>
+        Faculty: 
+        <select name="faculty">
+            <option value="computerScience">Computer Science</option>
+            <option value="business">Business</option>
+            <option value="pharmacy">Pharmacy</option>
+        </select>
+
+        <br><br>
+    
+        Interests: <br>
+        <input type="checkbox" name="interests" value="programming"> Programming <br>
+        <input type="checkbox" name="interests" value="reading"> Reading <br>
+        <input type="checkbox" name="interests" value="swimming"> Swimming <br>
+
+        <br><br>
+
+        About you: 
+        <textarea name="about" rows="5" cols="50"></textarea>
+        
+        <br><br>
+        <input type="checkbox" name="terms" required>
+        I agree to <a href="terms.html" target="_blank">terms</a>
+        
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
