@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            td {
+                border: 1.5px solid black;
+                padding: 10px;
+                text-align: center;
+            }
+            .blue td {
+                background-color: #4A86E8;
+                color: white;
+                border-left: none;
+                border-right: none;
+            }
+
+            .light-blue td {
+                background-color: #C9DAF8;
+            }
+            .very-light td {
+                background-color: #EAF1FB;
+            }
+            .light-gray {
+                background-color: rgb(227, 226, 226);
+            }
+            a {
+            color: #777; 
+            }
+        </style>
+    </head>
+    <body>
+
+        <table>
+
+            <tr class="blue">
+                <td></td>
+                <td>Team Name</td>
+                <td>Start Date</td>
+                <td>End Date</td>
+                <td>Show on Roster</td>
+                <td></td>
+            </tr>
+
+
+            <tr class="light-gray">
+                <td colspan="6"><a href="">Move to another Team</a></td>
+            </tr>
+
+            <tr class="light-blue">
+                <td style="background-color: rgb(227, 226, 226);"><a href="">edit</a></td>
+                <td>Team A</td>
+                <td>19/01/2012</td>
+                <td>Ongoing</td>
+                <td>yes</td>
+                <td style="background-color: rgb(227, 226, 226);"><a href="">delete</a></td>
+            </tr>
+
+            <tr class="very-light">
+                <td style="background-color: rgb(227, 226, 226);"><a href="">edit</a></td>
+                <td>Team B</td>
+                <td>24/10/2011</td>
+                <td>18/01/2012</td>
+                <td>no</td>
+                <td style="background-color: rgb(227, 226, 226);"><a href="">delete</a></td>
+            </tr>
+
+            <tr class="light-gray">      
+                <td colspan="6" style="color: #777; ;">Not in a team between 12/08/2011 and 23/10/2011. <a href="#">Add to a Team</a></td>
+            </tr>
+
+            <tr class="very-light">
+                <td style="background-color: rgb(227, 226, 226);"><a href="">edit</a></td>
+                <td>Team B</td>
+                <td>01/01/2011</td>
+                <td>11/08/2011</td>
+                <td>yes</td>
+                <td style="background-color: rgb(227, 226, 226);"><a href="">delete</a></td>
+            </tr>
+
+            <tr class="light-gray">        
+                <td colspan="6"><a href="">Add to a team prior to 01/01/2011</a></td>
+                
+            </tr>
+
+        </table>
+
+    </body>
+</html>
